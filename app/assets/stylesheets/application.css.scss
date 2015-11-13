@@ -17,6 +17,40 @@
 @import "bootstrap";
 @import "font-awesome";
 
+
+@font-face {
+  font-family: 'cl';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Champagne Limousines Bold'), 
+  local('ChampagneLimousines-Bold'), 
+  url('../fonts/Champagne_Limousines_Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'cl';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Champagne Limousines Italic'),
+   local('ChampagneLimousines-Italic'),
+    font-url('assets/Champagne_Limousines_Italic.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'cl';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Champagne Limousines'), 
+  local('ChampagneLimousines'), 
+  font-url('assets/Champagne_Limousines.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'cl';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Champagne Limousines Bold Italic'),
+   local('ChampagneLimousines-BoldItalic'),
+   font-url('assets/Champagne_Limousines_Bold_Italic.ttf') format('truetype');
+}
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -224,7 +258,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .nav li a {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Kaushan Script",Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
@@ -300,7 +334,7 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Kaushan Script","Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
+    font-size: 18px;
     font-style: italic;
     line-height: 22px;
 }
@@ -308,7 +342,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'cl';
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -323,7 +357,7 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
+        font-size: 30px;
         font-style: italic;
         line-height: 40px;
     }
